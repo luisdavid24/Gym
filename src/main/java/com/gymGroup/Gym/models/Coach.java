@@ -12,7 +12,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 @Entity
-@Table(name = "Porcine")
+@Table(name = "Coach")
 public class Coach {
 
 
