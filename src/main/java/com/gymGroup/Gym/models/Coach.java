@@ -7,5 +7,5 @@ public class Coach {
     private String LastName;
     private String Role;
 
-    
+
 }
