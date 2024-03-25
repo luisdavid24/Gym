@@ -28,8 +28,8 @@ public class GymClasses {
     @Column(name = "Name")
     private String Name;
 
-    @Column(name = "Coach")
-    private List<Coach> Coach;
+    //@Column(name = "Coach")
+    //private List Coach;
 
     @Column(name = "Schedule")
     private Date Schedule;

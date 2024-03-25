@@ -15,20 +15,18 @@ import lombok.ToString;
 @Table(name = "Coach")
 public class Coach {
 
-
     @Id
-    @Column(name = "Id")
+    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int Id;
+    private int id;
 
-    @Column(name = "Name")
-    private String Name;
+    @Column(name = "name")
+    private String name;
 
-    @Column(name = "LastName")
-    private String LastName;
+    @Column(name = "last_name")
+    private String lastName;
 
-    @Column(name = "Role")
-    private String Role;
-
+    @Column(name = "role")
+    private String role;
 
 }

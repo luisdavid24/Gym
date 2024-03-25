@@ -25,19 +25,19 @@ public class Customer {
     @Column(name = "LastName")
     private String LastName;
 
-    @Column(name = "Gender",nullable = true)
+    @Column(name = "Gender")
     private String Gender;
 
     @Column(name = "Phone")
     private String Phone;
 
-    @Column(name = "NameEmergency",nullable = true)
+    @Column(name = "NameEmergency")
     private String NameEmergency;
 
-    @Column(name = "LastEmergency",nullable = true)
+    @Column(name = "LastEmergency")
     private String LastEmergency;
 
-    @Column(name = "PhoneEmergency",nullable = true)
+    @Column(name = "PhoneEmergency")
     private String PhoneEmergency;
 
 }
