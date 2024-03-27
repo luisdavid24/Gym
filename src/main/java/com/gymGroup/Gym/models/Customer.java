@@ -31,6 +31,10 @@ public class Customer {
     @Column(name = "Phone")
     private String Phone;
 
+
+    @Column(name = "Objective")
+    private String Objective;
+
     @Column(name = "NameEmergency")
     private String NameEmergency;
 
